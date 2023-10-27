@@ -1,0 +1,44 @@
+﻿.calculator-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: darkseagreen;
+    grid-gap: 2px;
+}
+
+
+.result-container {
+
+}
+
+
+
+.numberbtn-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2px;
+}
+
+
+.operatorbtn-container {
+    display: inline-grid;
+    grid-template-rows: auto auto auto auto auto;
+    grid-gap: 2px;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+    button:hover {
+        background-color: #3e8a00; /* Color for hover state */
+    }
+
+    button:active {
+        background-color: #3e8e41; /* A darker shade for the active (clicked) state */
+    }
